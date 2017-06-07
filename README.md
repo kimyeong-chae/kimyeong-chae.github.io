@@ -7,3 +7,4 @@ git add .
 (git status)
 git commit -m "내용"
 git push origin master
+git pull
