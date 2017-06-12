@@ -6,8 +6,7 @@ categories: tech
 ---
 
 ## 블로그 만들기전 알아야 할 것 및 해야할 일
-
-
+------
 #### Markdown
 간단하게 HTML보다 쉬운 문법으로 웹페이지를 만들 수 있는 언어라고 생각한다
 예를들어 HTML에서 테이블을 만들 경우와 마크다운 언어로 만들 경우를 비교해보면
@@ -47,8 +46,10 @@ Markdown 문법으로 table만들기
 자세한건 <https://ko.wikipedia.org/wiki/%EA%B9%83%ED%97%88%EB%B8%8C>에서 확인 하시면 된다.
 일단 가입을 해야한다.
   * <https://github.com/> 접속
+
 ![github 홈페이지](/img/post/20170612/github.png )
   * sign up for GitHub 클릭 후 진행
+
 ![github 가입](/img/post/20170612/signup.jpg )
 
 여기까지 하면 일단 끝!
