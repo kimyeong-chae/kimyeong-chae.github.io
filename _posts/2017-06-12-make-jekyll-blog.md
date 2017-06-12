@@ -50,10 +50,10 @@ Markdown 문법으로 table만들기
 
 #### 1) <https://github.com/> 접속
 
-![github 홈페이지](../img/post/20170612/github.png )
+![github 홈페이지](/img/post/20170612/github.png )
 
 #### 2) sign up for GitHub 클릭 후 진행
 
-![github 가입](../img/post/20170612/signup.jpg )
+![github 가입](/img/post/20170612/signup.jpg )
 
 여기까지 하면 일단 끝!
