@@ -39,7 +39,7 @@ Markdown 문법으로 table만들기
 
 2. Jekyll
 ----
-그렇다면 Jekyll이 뭐냐라고 한다면 Markdown언어를 웹페이지로 만들어주는 파싱엔진 이라고 한다.
+그렇다면 `Jekyll`이 뭐냐라고 한다면 `Markdown`언어를 웹페이지로 만들어주는 파싱엔진 이라고 한다.
 자세한건 <https://jekyllrb-ko.github.io/> 에서 확인하시면 된다.
 
 3. GitHub
@@ -47,9 +47,9 @@ Markdown 문법으로 table만들기
 분산 버전관리 툴인 git을 사용하는 프로젝트를 지원하는 웹 호스팅 서비스이다.
 자세한건 <https://ko.wikipedia.org/wiki/%EA%B9%83%ED%97%88%EB%B8%8C>에서 확인 하시면 된다.
 일단 가입을 해야한다.
-  1. <https://github.com/> 접속
+  * <https://github.com/> 접속
 ![github 홈페이지](/img/post/20170612/github.png )
-  2. sign up for GitHub 클릭 후 진행
+  * sign up for GitHub 클릭 후 진행
 ![github 가입](/img/post/20170612/signup.jpg )
 
 여기까지 하면 일단 끝!
