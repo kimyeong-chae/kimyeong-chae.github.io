@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll을 이용한 블로그 만들기!(1)"
+title:  "Jekyll을 이용한 블로그 만들기! (1)"
 date:   2017-06-12 21:47:21 +0900
 categories: tech
 ---
@@ -11,6 +11,7 @@ categories: tech
 ----
 간단하게 HTML보다 쉬운 문법으로 웹페이지를 만들 수 있는 언어라고 생각한다
 예를들어 HTML에서 테이블을 만들 경우와 마크다운 언어로 만들 경우를 비교해보면
+
 ```html
 <h1>html로 table만들기</h1>
 <table>
