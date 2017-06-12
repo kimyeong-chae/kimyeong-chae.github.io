@@ -13,7 +13,7 @@ categories: tech
 간단하게 HTML보다 쉬운 문법으로 웹페이지를 만들 수 있는 언어라고 생각한다
 예를들어 HTML에서 테이블을 만들 경우와 마크다운 언어로 만들 경우를 비교해보면
 
-  ```html
+```html
 <h1>html로 table만들기</h1>
 <table>
   <thead>
@@ -27,16 +27,16 @@ categories: tech
     </tr>
   </tbody>
 </table>
-  ```
+```
 
-  ```Markdown
+```Markdown
 Markdown 문법으로 table만들기
 
 헤더|헤더|헤더
 -|-|-
 내용|내용|내용
-  ```
-  
+```
+
 누가봐도 아래가 간단하다. 이런 언어다.
 
 2. Jekyll
