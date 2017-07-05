@@ -1,9 +1,20 @@
 ---
-layout: page
+layout: about
 title: "About"
-description: "Why use Project Pages?"
 header-img: "img/home-bg.jpg"
 ---
 
-Project Pages is a research blog tool that allows you to quickly show your latest results to an advisor, collaborators or your mom.
-	
+ABOUT ME
+-----
+![yeongchae](/img/about/yeongchae.jpg )
+
+#### 지금은 흔한 웹개발자 나중엔 안 흔한 개발자
+
+***
+##### 기술 __TECH__
+
+###### Java, C, Spring Framework, Javascript, Jquery, Bootstrap, Database(RDBMS), Linux, GitHub
+***
+##### 관심있는 분야 __Area of interest__
+###### **Assembly**, CPU, OS, Data Structure, All languages, Cultural Software, Jekyll
+***

@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll을 이용한 블로그 만들기! (1)"
 date:   2017-06-12 21:47:21 +0900
 categories: tech
+author : yckim
 ---
 
 ## 블로그 만들기전 알아야 할 것 및 해야할 일
