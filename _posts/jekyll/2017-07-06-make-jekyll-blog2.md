@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll을 이용한 블로그 만들기! (2)"
 date:   2017-07-06 00:02:21 +0900
-categories: tech
+categories: jekyll
 author : yckim
 ---
 
