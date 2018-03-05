@@ -2,7 +2,7 @@
 layout: post
 title:  "ora-31655 : no data or metadata objects selected for job"
 date:   2017-07-06 15:00:21 +0900
-categories: linux
+categories: oracle
 author : yckim
 ---
 
@@ -23,5 +23,5 @@ ora-39154 : objects from foreign schemas have been removed
 
 정리.
 
-### 1. 위의 오류 발생
-### 2. 명령어의 오류가 아니라고 생각 될 경우 user에 imp_full_database 권한 있는지 확인
+##### 1. 위의 오류 발생
+##### 2. 명령어의 오류가 아니라고 생각 될 경우 user에 imp_full_database 권한 있는지 확인
