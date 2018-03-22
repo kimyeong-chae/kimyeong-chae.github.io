@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CoreData 개념 정리"
-date:   2017-03-23 01:02:21 +0900
+date:   2018-03-23 01:02:21 +0900
 categories: ios
 author : yckim
 ---
