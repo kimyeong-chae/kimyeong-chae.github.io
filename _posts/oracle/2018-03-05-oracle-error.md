@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ora-31655 : no data or metadata objects selected for job"
-date:   2017-07-06 15:00:21 +0900
+date:   2018-03-05 15:00:21 +0900
 categories: oracle
 author : yckim
 ---
