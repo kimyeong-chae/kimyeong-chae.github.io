@@ -16,6 +16,7 @@ Nginx 설치는 **yum** 을 이용해서 설치함
 $ cd /etc/nginx/
 </code>
 
+
 경로에서 Nginx 설정파일들을 확인 할 수 있다
 
 --------------
@@ -91,6 +92,7 @@ ssl_certificate_key		키파일경로
 <code>
   $ cp 개인키.key 개인키복사본파일명.key.secure
 </code>
+
 
 <code>
   $ openssl rsa -in 개인키복사본파일명.key.secure -out 개인키.key
