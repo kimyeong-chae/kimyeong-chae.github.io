@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Lambda + ApiGateway + Cognito 설정해보기"
+title:  "AWS Lambda + ApiGateway + Cognito 설정해보기(1)"
 date:   2018-12-13 21:30:21 +0900
 categories: aws
 author : yckim
@@ -32,5 +32,10 @@ author : yckim
 ##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 도메인 이름 > 도메인 이름 입력, 가용성 확인 후 저장
 ![cognito-6](/img/post/20181213/cognito-6.png )
 
-##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 리소스 서버 > *리소스 서버 추가* 선택
+##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 리소스 서버 > *리소스 서버 추가* 선택 후 도메인 입력하고 저장
 ![cognito-7](/img/post/20181213/cognito-7.png )
+
+##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 앱 클라이언트 설정 > *Cognito User Pool, Client credentials, 허용된 사용자 지점 범위*  &nbsp; 체크 후 저장
+![cognito-8](/img/post/20181213/cognito-8.png )
+
+##### 여기까지 따라오셨으면 Cognito 설정은 끝났습니다 이제 Lambda로 ㄱㄱ
