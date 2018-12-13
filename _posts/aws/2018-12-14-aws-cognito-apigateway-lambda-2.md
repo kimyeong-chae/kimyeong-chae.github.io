@@ -58,13 +58,13 @@ author : yckim
 ![lambda-1](/img/post/20181213/lambda-8.png )  
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 적용하고나면 허용된 OAuth 범위 항목이 생기는데
-#### &nbsp;&nbsp;&nbsp;&nbsp; 여기에 Cognito 리소스 서버에 식별자와 범위 이름이
+#### &nbsp;&nbsp;&nbsp;&nbsp; 여기에 Cognito 리소스 서버에 식별자와 범위 이름이 사용됩니다
 #### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 저의 경우엔 yckim-app이 식별자 yckim.read가 범위 이름입니다
 ![lambda-1](/img/post/20181213/lambda-14.png )  
 
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; 그러면 바로 Postman에서 다시 요청해보겠습니다
+#### &nbsp;&nbsp;&nbsp;&nbsp; 그러면 Postman에서 다시 요청해보겠습니다
 ![lambda-1](/img/post/20181213/lambda-5.png )
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 응답이 정상적으로 옵니다 배포를 안해서 적용이 안되있습니다
@@ -76,8 +76,8 @@ author : yckim
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; *{"message": "Unauthorized"}* 라고 응답이 오네요
 #### &nbsp;&nbsp;&nbsp;&nbsp; Cognito가 적용 되었습니다 그럼 Cognito OAuth2 Token 발급 후 발급 받은 토큰으로 다시 요청해보겠습니다
-
-#### &nbsp;&nbsp;&nbsp;&nbsp; 이전 글에서 만들었던 Congito 사용자 풀 관리 화면에서 좌측 사이드에 *앱 통합* 메뉴를 클릭하시면 도메인이 있어요 요걸 복사해줍니다
+#### &nbsp;&nbsp;&nbsp;&nbsp;
+#### &nbsp;&nbsp;&nbsp;&nbsp; Congito 사용자 풀 관리 화면에서 좌측 사이드에 *앱 통합* 메뉴를 클릭하시면 도메인이 있어요 이걸 복사해주세요
 ![lambda-1](/img/post/20181213/lambda-11.png )
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 그리고 Postman에서 Authorization 탭으로 이동하고 TYPE을 OAuth2.0을 선택하고 우측에 Get New Access Token 버튼을 눌러주세요
