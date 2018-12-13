@@ -12,9 +12,10 @@ author : yckim
 
 
 ### Lambda + API Gateway 설정
+---
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; Lambda > 함수 > 함수 생성
-##### &nbsp;&nbsp;&nbsp;&nbsp; 이름 입력하고, 역할이름에서 *1개이상의 템플릿에서 새로운 역할을 생성합니다* 선택하고 *함수 생성*
+#### &nbsp;&nbsp;&nbsp;&nbsp; 이름 입력하고, 역할이름에서 *1개이상의 템플릿에서 새로운 역할을 생성합니다* 선택하고 *함수 생성*
 ![lambda-1](/img/post/20181213/lambda-1.png )
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 자 그러면 밑의 화면이 나올텐데 저기서 API 게이트웨이를 클릭해줍니다
