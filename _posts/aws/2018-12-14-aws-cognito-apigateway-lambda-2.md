@@ -85,12 +85,14 @@ author : yckim
 ![lambda-1](/img/post/20181213/lambda-13.png )
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; Token Name을 입력하시고
-#### &nbsp;&nbsp;&nbsp;&nbsp; Grant Type을 Client Credentials, Access Token URL은 아까 복사한 도메인을 붙여넣고 끝에 /oauth2/token을 추가합니다
+#### &nbsp;&nbsp;&nbsp;&nbsp; Grant Type은 Client Credentials
+#### &nbsp;&nbsp;&nbsp;&nbsp; Access Token URL은 아까 복사한 도메인을 붙여넣고 끝에 /oauth2/token을 추가합니다
 #### &nbsp;&nbsp;&nbsp;&nbsp; https://yckim-app.auth.ap-northeast-2.amazoncognito.com/oauth2/token 이렇게 꼭 추가하세요!!!!!
-
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 그리고 Client ID, Client Secret은 Cognito 앱 클라이언트 > 세부 정보 표시에서 확인할 수 있어요 복붙합시다
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 마지막 Scope는 위의 OAuth 범위 항목에서 설정한 범위 이름이 쓰입니다
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 자 그리고 토큰을 요청해봅시다!!!!
 ![lambda-1](/img/post/20181213/lambda-15.png )
 
