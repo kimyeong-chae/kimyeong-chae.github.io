@@ -19,13 +19,17 @@ author : yckim
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 자 그러면 밑의 화면이 나올텐데 저기서 API 게이트웨이를 클릭해줍니다
 ![lambda-1](/img/post/20181213/lambda-2.png )
-
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 그리고 *새 API 생성* , 보안은 *열기* 로 선택하고 하단의 추가 버튼 클릭하고 상단의 *저장* 을 눌러주세요
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 ![lambda-1](/img/post/20181213/lambda-3.png )
-
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 저장을 누르면 API Gateway 이름이랑 상세정보가 나오는데 그중에 *API 엔드포인트* 가 생성한 lambda의 API URL입니다
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 ![lambda-1](/img/post/20181213/lambda-4.png )
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 #### &nbsp;&nbsp;&nbsp;&nbsp; 이 주소로 Postman 요청을 해보겠습니다
+#### &nbsp;&nbsp;&nbsp;&nbsp;
 ![lambda-1](/img/post/20181213/lambda-5.png )
 #### &nbsp;&nbsp;&nbsp;&nbsp; Lambda가 샐행되고 응답이 제대로 오는걸 확인 할 수 있습니다
 #### &nbsp;&nbsp;&nbsp;&nbsp; 지금은 *API Gateway* 보안을 *열기* 로 해 놓았기 때문에 누구든 요청할 수 있습니다
@@ -54,9 +58,9 @@ author : yckim
 ![lambda-1](/img/post/20181213/lambda-8.png )  
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; 적용하고나면 허용된 OAuth 범위 항목이 생기는데
-#### &nbsp;&nbsp;&nbsp;&nbsp; 여기에 Cognito 리소스 서버에 식별자와 범위 이름이 사용됩니다
-#### &nbsp;&nbsp;&nbsp;&nbsp; 식별자/범위 포맷입니다
-#### &nbsp;&nbsp;&nbsp;&nbsp;저의 경우엔 yckim-app이 식별자 yckim.read가 범위 이름입니다
+#### &nbsp;&nbsp;&nbsp;&nbsp; 여기에 Cognito 리소스 서버에 식별자와 범위 이름이
+#### &nbsp;&nbsp;&nbsp;&nbsp;
+#### &nbsp;&nbsp;&nbsp;&nbsp; 저의 경우엔 yckim-app이 식별자 yckim.read가 범위 이름입니다
 ![lambda-1](/img/post/20181213/lambda-14.png )  
 
 
