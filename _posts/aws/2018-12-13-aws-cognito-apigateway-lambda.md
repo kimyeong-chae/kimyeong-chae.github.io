@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Lambda + ApiGateway + Cognito 설정해보기(1)"
+title:  "AWS Lambda + Api Gateway + Cognito 설정해보기(1)"
 date:   2018-12-13 21:30:21 +0900
 categories: aws
 author : yckim
@@ -38,4 +38,4 @@ author : yckim
 ##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 앱 클라이언트 설정 > *Cognito User Pool, Client credentials, 허용된 사용자 지점 범위*  &nbsp; 체크 후 저장
 ![cognito-8](/img/post/20181213/cognito-8.png )
 
-##### 여기까지 따라오셨으면 Cognito 설정은 끝났습니다 이제 Lambda로 ㄱㄱ
+### 여기까지 따라오셨으면 Cognito 설정은 끝났습니다 다음 포스팅으로 ㄱㄱ
