@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Lambda + Api Gateway + Cognito OAuth2 설정해보기(1)"
+title:  "AWS Lambda + Api Gateway + Cognito OAuth2 설정해보기 (1)"
 date:   2018-12-13 21:30:21 +0900
 categories: aws
 author : yckim
