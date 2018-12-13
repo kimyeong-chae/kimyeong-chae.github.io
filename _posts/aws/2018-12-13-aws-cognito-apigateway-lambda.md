@@ -38,4 +38,4 @@ author : yckim
 ##### &nbsp;&nbsp;&nbsp;&nbsp; 앱 통합 > 앱 클라이언트 설정 > *Cognito User Pool, Client credentials, 허용된 사용자 지점 범위*  &nbsp; 체크 후 저장
 ![cognito-8](/img/post/20181213/cognito-8.png )
 
-### 여기까지 따라오셨으면 Cognito 설정은 끝났습니다 다음 포스팅으로 ㄱㄱ
+### 여기까지 따라오셨으면 Cognito 설정은 끝났습니다 다음 글로 ㄱㄱ
