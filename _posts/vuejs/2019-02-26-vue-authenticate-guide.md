@@ -8,11 +8,11 @@ author : yckim
 
 # vue-authenticate 모듈 소셜 로그인 가이드    
   
-## 배경  
+## **배경**
   
 ### vue.js로 Single Page Application 토이 프로젝트 작업 중 사용자 인증 작업이 필요한 상황이였고,  
 
-### local-login은 필요 없고 소셜 로그인 기능만 필요했다  
+### 소셜 로그인 기능만 필요했다  
 
 
 ### 적당한 모듈을 찾아보던 중 vue-authenticate가 다운로드 수가 가장 많고,   
@@ -21,50 +21,48 @@ author : yckim
 
 _ _ _
 
-### Frontend(Vue.js) 설정    
+## **Frontend(Vue.js) 설정**
   
   
 ### 소셜 로그인은 Google, Facebook, Instagram을 사용했고, 미리 각 사이트에서 앱을 생성했다고 가정    
 
 
 
-### 1. vue-authenticate 모듈 설치  
+### *1. vue-authenticate 모듈 설치*
 `$ npm i --save vue-authenticate`  
   
 
-### 2. vue-router 설정  
+### *2. vue-router 설정*
 ![1](/img/post/20190226/2.png )  
   
 ### vue-router 가장 하단에 추가함
 
 
-### 3. vue.js instance 설정파일에서 vue-authenticate 설정 추가  
+### *3. vue.js instance 설정파일에서 vue-authenticate 설정 추가* 
 ![1](/img/post/20190226/1.png )
 ### **redirectUri는 위의 2번에서 설정한 path로 해주면 된다**  
 
 
-### 4. login component에서 methods 추가  
+### *4. login component에서 methods 추가*  
 ![1](/img/post/20190226/3.png )  
 ### 나의 경우 각 사이트에서 로그인 성공 후 프로필 정보를 받은 후 TODO문에서 backend passport로 로그인 시켰음  
 
 
-### 5. 적절한 태그에 위의 method 호출하게 수정  
+### *5. 적절한 태그에 위의 method 호출하게 수정*  
 
 ```
 <div @click="authenticate('google')">
 <div @click="authenticate('facebook')">
 <div @click="authenticate('instagram')">
 ```
-  
 
-### 이것으로 Vue.js(Frontend) 설정은 끝났다  
 
 _ _ _
 
-## Backend(Node + Express) 설정
+## **Backend(Node + Express) 설정**
  
 
-### 1. login router 설정
+### *1. login router 설정*
 ```
 /**
  * social login callback
